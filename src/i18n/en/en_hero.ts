@@ -1,20 +1,20 @@
 import type { Hero } from '@/types'
 
 const hero: Hero = {
-  title: 'Hello, my name is John Doe',
+  title: 'Hey, My name is Julian Ornelas',
   subtitle:
-    "I've mastered the art of turning coffee into code and chaos into order. My passion for solving problems is matched only by my love for making homemade pancakes on Sunday mornings.",
-  name: 'John Phillip Doe',
-  url: 'https://john-does.com/',
+    "Data science is my passion, and I am committed to leveraging open-source programs to drive innovation and solve complex problems. With a solid foundation in computer science as a senior at Georgia State University, I strive to expand my knowledge and skills.",
+  name: 'Julian Ornelas',
+  url: '',
   contact_button: 'Get in touch',
   //If a profile hast an empty string '', the button wont be rendered
   profiles: {
-    linkedin: 'https://linkedin.com/in/johndoe-innovator',
-    github: 'https://github.com/johndoethecoderohyeah',
-    youtube: 'https://youtube.com/johndoesstuff',
-    twitter: 'https://twitter.com/johndoetechuncensored',
+    linkedin: 'https://www.linkedin.com/in/julian-ornelas/',
+    github: 'https://github.com/julian-ornelas/',
+    youtube: '',
+    twitter: '',
     instagram: '',
-    facebook: 'https://facebook.com/johndoepersonalstuff'
+    facebook: ''
   },
   home: 'Home'
 }
