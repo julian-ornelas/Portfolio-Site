@@ -6,12 +6,7 @@
           class="open-sans group my-auto flex items-center gap-2 font-bold text-primary-900"
           to="/"
         >
-          <img
-            :alt="`${$t('hero.name')}'s picture'`"
-            src="@/assets/img/profile.webp"
-            class="h-10 w-10 rounded-full rounded-tl-none duration-500 sm:group-hover:rounded-br-sm sm:group-hover:rounded-tl-full"
-          />
-          Vuefolio
+          Julian Ornelas
         </router-link>
         <div class="flex items-center space-x-2 font-semibold">
           <nav class="hidden items-center space-x-2 md:flex [&>a]:px-1">
