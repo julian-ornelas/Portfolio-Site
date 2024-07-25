@@ -8,28 +8,20 @@ const about: About = {
     title: 'Education',
     list: [
       {
-        title: 'Bachelor of Science in Time Traveling',
-        institution: 'University of Parallel Universes',
-        url: 'http://www.universityofparalleluniverses.com/',
+        title: 'Bachelor of Science in Computer Science',
+        institution: 'Georgia State University',
+        url: 'https://www.gsu.edu/',
         description:
-          'An intensive course that combines quantum physics, nostalgia studies, and the history of science fiction to prepare students for a career in time traveling. Specialized modules on avoiding time paradoxes and blending in at medieval banquets.',
-        startDate: '2018-08',
-        endDate: '2023-07',
+          "I'm taking my undergraduate degree here. I have taken a myriad of computer science courses, ranging from intro computer science classes to more specialized courses. I will soon be taking classes in machine learning and data mining.",
+        startDate: '2022-08',
+        endDate: '2025-05',
         courses: [
-          'Quantum Mechanics 101',
-          'Advanced Techniques in Chrono-Zoom',
-          'Paradox Management'
+          'Fundamentals of Data Science',
+          'Probability and Statistics',
+          'Linear Algebra',
+          'Game Theory',
+          'Data Structures & Algorithms'
         ]
-      },
-      {
-        title: 'Bootcamp of Arts in Pirate Studies',
-        institution: 'Caribbean School of Buccaneering',
-        url: 'http://www.caribbeanschoolofbuccaneering.com/',
-        description:
-          'A rigorous program that delves into the golden age of piracy. Students learn not only the history and economics of piracy but also engage in practical ship-sailing and treasure-mapping workshops. Ideal for those seeking a career in maritime reenactment or treasure hunting.',
-        startDate: '2018-08',
-        endDate: '2023-07',
-        courses: ['Pirate Ethics', 'Navigation of the 17th Century', 'Economics of Plunder']
       }
     ]
   },
