@@ -95,8 +95,6 @@
         </a>
       </div>
     </div>
-    <!-- Icon Scroll Credits: http://www.hnslack.xyz/ -->
-    <div class="icon-scroll hidden border-2 border-base-700 before:bg-base-700 md:block"></div>
     <div class="custom-shape-divider-bottom-1713476723">
       <svg
         data-name="Layer 1"
@@ -156,40 +154,5 @@ import FacebookIcon from '../icons/FacebookIcon.vue'
 
 .custom-shape-divider-bottom-1713476723 .shape-fill {
   fill: #ececec;
-}
-
-.icon-scroll,
-.icon-scroll:before {
-  position: absolute;
-  left: 50%;
-}
-.icon-scroll {
-  width: 26px;
-  height: 45px;
-  margin-left: -14px;
-  bottom: 30px;
-  margin-top: -35px;
-  opacity: 50%;
-  border-radius: 25px;
-}
-.icon-scroll:before {
-  content: '';
-  width: 8px;
-  height: 8px;
-  margin-left: -4px;
-  top: 8px;
-  border-radius: 4px;
-  animation-duration: 1.5s;
-  animation-iteration-count: infinite;
-  animation-name: scroll;
-}
-@keyframes scroll {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    transform: translateY(26px);
-  }
 }
 </style>
