@@ -10,7 +10,7 @@ const projects: Projects = {
       techstack: ['scikit-learn', 'Pandas', 'Numpy',],
       image: 'water_quality_decision_tree_stats.png',
       description:
-        'Machine learning models that predicts whether water is suitable for farmers to use for irrigation based on a dataset found on Kaggle that had features like chemical composition and color',
+        'Machine learning models that predicts whether water is suitable for farmers to use for irrigation based on a dataset found on Kaggle that had features like chemical composition and color, plus some exploratory visualizations.',
       src: 'https://github.com/sebastien-andre/Water_Quality_Project',
       url: ''
     },
