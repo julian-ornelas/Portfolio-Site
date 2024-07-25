@@ -37,7 +37,7 @@ export const useLocalizedDate = () => {
     const start = new Date(startDate)
     const end = endDate === t('experience.present') ? new Date() : new Date(endDate)
     const total_months =
-      end.getMonth() - start.getMonth() + 12 * (end.getFullYear() - start.getFullYear())
+      end.getMonth() + 1 - start.getMonth() + 12 * (end.getFullYear() - start.getFullYear())
     const months = total_months % 12
     const years = Math.floor(total_months / 12)
     return years == 0
