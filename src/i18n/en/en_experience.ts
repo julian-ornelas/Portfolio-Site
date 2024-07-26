@@ -11,7 +11,7 @@ const experience: Experience = {
     {
       company: 'CodePath',
       position: 'Cybersecurity Tech Fellow',
-      url: 'http://www.applebutwithmorebananas.com',
+      url: '#',
       startDate: '2023-07',
       endDate: '2023-11',
       highlights: [
@@ -24,7 +24,7 @@ const experience: Experience = {
     {
       company: 'PwC x Paragon One',
       position: 'Nonprofit Consulting Extern',
-      url: 'http://www.googolplexthegame.com',
+      url: '#',
       startDate: '2023-06',
       endDate: '2023-08',
       highlights: [
@@ -38,7 +38,7 @@ const experience: Experience = {
     {
       company: 'Fulton County Schools',
       position: 'Information Technology Intern',
-      url: 'http://www.googolplexthegame.com',
+      url: '#',
       startDate: '2022-06',
       endDate: '2022-07',
       highlights: [
