@@ -59,16 +59,6 @@ export interface Contact {
   email: string
   copy: string
   copied: string
-  form: string
-  name_label: string
-  name_placeholder: string
-  email_label: string
-  email_placeholder: string
-  message_label: string
-  message_placeholder: string
-  send: string
-  sending: string
-  restriction: string
 }
 
 export interface Experience {

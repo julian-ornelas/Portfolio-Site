@@ -2,7 +2,7 @@
   <section
     id="contact"
     name="contact"
-    class="relative flex min-h-[100ch] w-full items-center justify-center bg-[#fff] pb-10"
+    class="relative flex min-h-[75ch] w-full items-center justify-center bg-[#fff] pb-10"
   >
     <div class="custom-shape-divider-top-1714946600">
       <svg
@@ -155,12 +155,6 @@
           </div>
         </span>
         <span class="h-1 w-full bg-gradient-to-r from-transparent via-neutral-300 to-transparent" />
-        <div class="flex w-full flex-col justify-center text-center">
-          <p class="source-sans text-center sm:text-lg">
-            {{ $t('contact.form') }}
-          </p>
-          <ContactForm />
-        </div>
       </div>
     </div>
   </section>
@@ -171,7 +165,6 @@ import GlassButton from '@/components/GlassButton.vue'
 import CopyIcon from '@/components/icons/CopyIcon.vue'
 import GithubIcon from '@/components/icons/GithubIcon.vue'
 import LinkedinIcon from '@/components/icons/LinkedinIcon.vue'
-import ContactForm from './ContactSection-Form.vue'
 import { ref } from 'vue'
 import YoutubeIcon from '@/components/icons/YoutubeIcon.vue'
 import TwitterIcon from '@/components/icons/TwitterIcon.vue'
