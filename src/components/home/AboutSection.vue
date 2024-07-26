@@ -47,7 +47,7 @@
 
 <script lang="ts" setup>
 import EducationPanel from './AboutSection-Education.vue'
-import AchievementsPanel from './AboutSection-Achievements.vue'
+//import AchievementsPanel from './AboutSection-Achievements.vue'
 </script>
 
 <style scoped>
