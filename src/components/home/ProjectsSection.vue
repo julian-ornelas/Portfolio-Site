@@ -1,5 +1,5 @@
 <template>
-  <section class="relative flex min-h-[100vh] w-full items-center justify-center bg-base-50 pb-32">
+  <section class="relative flex min-h-[150ch] w-full items-center justify-center bg-base-50 pb-32">
     <div class="custom-shape-divider-top-1713495835">
       <svg
         data-name="Layer 1"
