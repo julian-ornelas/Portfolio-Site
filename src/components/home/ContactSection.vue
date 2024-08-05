@@ -32,54 +32,6 @@
             {{ $t('contact.social') }}
           </p>
           <div class="flex w-full flex-wrap items-center justify-center gap-2 pt-3">
-            <div class="flex items-center">
-              <input
-                type="email"
-                class="min-h-[45px] w-[200px] select-all rounded-s-md border-[1px] bg-gray-50 px-3 focus:outline-none"
-                id="Email"
-                name="Email"
-                :placeholder="$t('contact.email')"
-                autocomplete="off"
-                :value="$t('contact.email')"
-                readonly
-              />
-              <button
-                class="flex min-h-[45px] min-w-[85px] select-none items-center justify-center rounded-e-md border-none px-2 text-sm text-white transition-colors duration-300 ease-in-out"
-                @click="copyEmail"
-                :disabled="copied"
-                :title="$t('contact.copy')"
-                :class="
-                  copied
-                    ? 'cursor-default bg-neutral-600'
-                    : 'cursor-pointer bg-primary-800 hover:bg-primary-900 '
-                "
-              >
-                <span
-                  v-if="!copied"
-                  class="source-sans flex items-center gap-x-1 text-sm sm:text-base"
-                >
-                  <CopyIcon class="h-4 w-4" />
-                  {{ $t('contact.copy') }}
-                </span>
-                <span
-                  v-else
-                  class="contact@ralo.dev source-sans flex items-center gap-x-1 text-base"
-                >
-                  <svg
-                    class="my-auto h-4 w-4 text-white"
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                  >
-                    <path
-                      d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"
-                    />
-                  </svg>
-                  {{ $t('contact.copied') }}
-                </span>
-              </button>
-            </div>
             <a
               v-if="$t('hero.profiles.github') != ''"
               :href="$t('hero.profiles.github')"
@@ -162,26 +114,13 @@
 
 <script lang="ts" setup>
 import GlassButton from '@/components/GlassButton.vue'
-import CopyIcon from '@/components/icons/CopyIcon.vue'
 import GithubIcon from '@/components/icons/GithubIcon.vue'
 import LinkedinIcon from '@/components/icons/LinkedinIcon.vue'
-import { ref } from 'vue'
 import YoutubeIcon from '@/components/icons/YoutubeIcon.vue'
 import TwitterIcon from '@/components/icons/TwitterIcon.vue'
 import InstagramIcon from '@/components/icons/InstagramIcon.vue'
 import FacebookIcon from '@/components/icons/FacebookIcon.vue'
 
-const email = 'contact@ralo.dev'
-const copied = ref(false)
-
-function copyEmail() {
-  if (copied.value) return
-  navigator.clipboard.writeText(email)
-  copied.value = true
-  setTimeout(() => {
-    copied.value = false
-  }, 2000)
-}
 </script>
 
 <style scoped>
